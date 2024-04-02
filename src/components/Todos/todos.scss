@@ -1,0 +1,37 @@
+.todos {
+  max-width: 700px;
+
+  .todos-list-section {
+    max-width: 500px;
+
+    .filter-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      background-image: linear-gradient(90deg, lightblue, lightgreen);
+      border-radius: 30px;
+    }
+
+    .filter-option-btn-wrapper {
+      .filter-option-btn {
+        font-weight: 500;
+        background: none;
+        position: relative;
+
+        &.btn-active {
+          color: lightblue;
+
+          &::after {
+            content: "";
+            width: 100%;
+            display: inline-block;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            border-bottom: 3px solid lightblue !important;
+          }
+        }
+      }
+    }
+  }
+}

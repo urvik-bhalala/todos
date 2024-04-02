@@ -1,0 +1,13 @@
+.todo-item{
+    border-bottom: 2px solid lightblue;
+    &.active{
+        color: #5ebd5e;
+    }
+    .todo-name{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .todo-active-status{
+        font-size: 20px;
+    }
+}
